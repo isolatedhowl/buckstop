@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="css/buckstop.css" media="screen"/>
+	<title>Buck Stop</title>
+	<meta name="description" content="Buck Stop is a classic barbecue and small plate saloon." />
+	<meta charset="UTF-8"/>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<figure id="logo"><a href="#"><img src="images/logo.png" alt="Buck Stop Logo"/></a></figure>
+		</header>
+		<article id="maininfo">
+			<nav id="mainnav">
+				<ul>
+					<li><a href="#">Kitchen</a></li>
+					<li><a href="#">Bar</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</nav>
+			<div id="maincontent">
+				<p class="center quote">&quot;Food is like love. It should be entered into with abandon or not at all.&quot;</p>
+				<p class="center">- Harriet Van Horne</p>
+			</div>
+		</article>
+
+		<article id="storyinfo" class="infolinks">
+			<header><h2>Our Story</h2></header>
+			<p>Find out more about who we are, what makes us unique, and what we're all about...</p>
+			<p class="right"><a href="#">Read More</a></p>
+		</article>
+
+		<article id="menuinfo" class="infolinks">
+			<header><h2>Our Menu</h2></header>
+			<p>All of our food is prepared in house and sourced locally. Great food, great health...</p>
+			<p class="right"><a href="#">Read More</a></p>
+		</article>
+	</div>
+
+	<div id="baroverlay"></div>
+	
+</body>
+</html>
